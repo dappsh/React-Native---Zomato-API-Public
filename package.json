@@ -1,0 +1,29 @@
+{
+  "name": "ajengSyantik",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node node_modules/react-native/local-cli/cli.js start",
+    "test": "jest"
+  },
+  "dependencies": {
+    "@mapbox/react-native-mapbox-gl": "^6.1.2-beta2",
+    "axios": "^0.18.0",
+    "native-base": "^2.7.2",
+    "react": "16.3.1",
+    "react-native": "0.55.4",
+    "react-native-animatable": "^1.3.0",
+    "react-native-elements": "^0.19.1",
+    "react-native-vector-icons": "^4.6.0",
+    "react-navigation": "^2.9.3"
+  },
+  "devDependencies": {
+    "babel-jest": "23.4.0",
+    "babel-preset-react-native": "4.0.0",
+    "jest": "23.4.1",
+    "react-test-renderer": "16.3.1"
+  },
+  "jest": {
+    "preset": "react-native"
+  }
+}
